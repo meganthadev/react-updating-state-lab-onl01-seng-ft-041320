@@ -6,9 +6,9 @@ class YouTubeDebugger extends React.Component {
      errors: [],
      user: null,
      settings: {
-     bitrate: 8,
+       bitrate: 8,
      video: {
-      resolution: '1080p'
+       resolution: '1080p'
     }
   }
 }
