@@ -22,7 +22,14 @@ handleBitRateClick = () =>{
     })
   }
   
-  
+  handleResolutionClick = () =>{
+    this.setState({
+      settings:{
+        ...this.state.settings,
+        video:{
+        resolution: '720p'}
+      }
+    })
   
   
   
